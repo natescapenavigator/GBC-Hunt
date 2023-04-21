@@ -1,0 +1,29 @@
+{
+    "lastResetTime": "",
+    "objects": [
+      {
+        "objectUID": 1,
+        "found": false,
+        "foundTimestamps": [
+        ]
+      },
+      {
+        "objectUID": 2,
+        "found": false,
+        "foundTimestamps": [
+        ]
+      },
+      {
+        "objectUID": 3,
+        "found": false,
+        "foundTimestamps": [
+        ]
+      },
+      {
+        "objectUID": 4,
+        "found": false,
+        "foundTimestamps": [
+        ]
+      }
+    ]
+  }

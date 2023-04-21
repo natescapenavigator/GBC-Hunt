@@ -1,0 +1,388 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Germania+One:wght@400;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: aqua;
+    background-image: url(img/bg-forest.jpg);
+    background-size: cover;
+}
+
+/* .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+
+.container {
+    position: relative;
+    margin: 0 auto;
+}
+
+.clear {
+    float: none;
+}
+
+#scavangeText {
+    font-family: 'Germania One';
+    position: absolute;
+    width: 150px;
+    height: 26px;
+    left: 67.01px;
+    top: 39.75px;
+
+    font-family: 'Germania One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.4993px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#instructionsText {
+
+    position: absolute;
+    width: 211px;
+    height: 44px;
+    left: 67.01px;
+    top: 59.75px;
+
+    font-family: 'Germania One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37.5991px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+#prepareText {
+
+    position: absolute;
+    width: 1013.72px;
+    height: 62.67px;
+    left: 301.68px;
+    top: 41.08px;
+
+    font-family: 'Noah Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+#scanButton {
+    position: absolute;
+    width: 139px;
+    height: 46px;
+    left: 1346.45px;
+    top: 43.64px;
+}
+
+.greenText {
+    color: #40DF95;
+}
+
+.yellowText {
+    color: #FFD37F;
+}
+
+.greenButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 4px;
+    gap: 10px;
+    position: relative;
+    z-index: 99;
+
+    background: #2D9B68;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    
+    font-family: 'Germania One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor:pointer;
+    
+}
+
+.testButton, .resetButton {
+    height: 40px;
+    width: 160px;
+    margin: 10px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.testContainer {
+    position: relative;
+    float: right;
+    margin-top: 300px;
+    margin-right: 140px;
+     margin-left: -400px;
+    height: auto;
+    width: 160px;
+}
+
+.redButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 8px;
+    gap: 10px;
+
+    position: absolute;
+    width: 310px;
+    height: 35px;
+    left: 1750px;
+    top: 1005px;
+    margin-bottom: 15px;
+
+    background: #B94300;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+
+    font-family: 'Germania One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+
+#sceneImage {
+    position: absolute;
+    width: 2000px;
+    height: 686.83px;
+    top: 144.53px;
+
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#inventoryBox {
+    position: absolute;
+    width: 791.67px;
+    height: 267.21px;
+    top: 740.93px;
+
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
+
+
+
+/* Icon Containers */
+
+#iconContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.infoButton {
+    position: relative;
+    
+    float: left;
+    height: 120px;
+    padding: 0 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+
+.iconBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    position: relative;
+    
+    float: left;
+    height: 120px;
+    padding: 0 20px;
+
+}
+
+/* Description Container */
+#descriptionContainer {
+    font-family: 'Germania One', cursive;
+    color: white;
+}
+
+#descriptionContainer.outer {
+    display: flex;
+    justify-content: center;
+    
+    width: auto;
+    height: 600px;
+    padding: 150px;
+    margin-bottom: -50px;
+}
+
+#descriptionContainer .hideBg,
+#descriptionContainer #descCheckmark.hideBg {
+    background: none;
+}
+
+#descriptionContainer .inner {
+    background-image: url("img/bg-found.png");
+    background-size: contain;
+    position: absolute;
+    height: 500px;
+    width: 738px;
+}
+
+#descriptionContainer .icon {
+    height: 120px;
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    /*filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);*/
+}
+
+#descriptionContainer #descCheckmark {
+    position: absolute;
+    top: 272px;
+    left: 105px;
+    width: 29px;
+    height: 29px;
+    background-image: url("img/check.png");
+    background-size: contain;
+}
+
+#descriptionContainer #descTitle {
+    position: absolute;
+    top: 270px;
+    left: 130px;
+    font-size: 32px;
+    width: 100px;
+    text-align: center;
+}
+
+#descriptionContainer #descFound {
+    position: absolute;
+    top: 310px;
+    left: 130px;
+    font-size: 22px;
+    /*color: #40DF95;*/
+    width: 120px;
+    text-align: center;
+}
+
+#descriptionContainer #descText {
+    position: absolute;
+    top: 200px;
+    left: 280px;
+    font-size: 18px;
+    width: 300px;
+}
+
+/* Misc */
+
+.icon {
+    font-family: 'Germania One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    /*filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);*/
+}
+
+.foundIcon {
+    filter: brightness(0) saturate(100%) invert(97%) sepia(19%) saturate(5290%) hue-rotate(306deg) brightness(110%) contrast(102%);
+}
+
+.unfoundIcon {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(1%) saturate(3009%) hue-rotate(30deg) brightness(85%) contrast(88%);
+    color: #aaaaaa;
+}
+
+.neutralIcon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7493%) hue-rotate(296deg) brightness(98%) contrast(105%);
+    color: white;
+}
+
+.greenText {
+    color: #40DF95;
+}

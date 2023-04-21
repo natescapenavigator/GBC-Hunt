@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+   <head>
+      <title>Scavenger Hunt</title>
+      <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+    <header></header>
+        <div>
+            <!-- Heading -->
+            <section class="container">
+                <p id="scavangeText">Scavenger Hunt</p>
+                <p id="instructionsText">Instructions&#58;</p>
+                <p id="prepareText">Hidden around <span class="greenText">this building</span> are four 3D-printed objects: 
+                    yarrow, jolly, fiddle, axe. Bring them back to this location and scan them to add them to inventory. 
+                    <span class="yellowText">Find each object to help the woodsman prepare for his journey.</span></p>
+                <div id="scanButton" class="greenButton">How To Scan</div>
+            </section>
+
+            <!-- Background -->
+            <section class="container">
+                <img id="sceneImage" src="img/bg-start.png">
+                <img id="inventoryBox" src="img/inventory-box.png">
+            </section>
+
+            <!-- Test Buttons -->
+            <section class="testContainer">
+                <button class="greenButton testButton" data-info="1">Test Yarrow</button>
+                <button class="greenButton testButton"data-info="2">Test Jolly</button>
+                <button class="greenButton testButton"data-info="3">Test Fiddle</button>
+                <button class="greenButton testButton"data-info="4">Test Axe</button>
+                <button class="greenButton resetButton">Reset Tracking</button>
+                <div class="clear"></div>
+            </section>
+
+            <!-- Descriptions on hover (hidden) -->
+            <section id="descriptionContainer" class="container outer">
+                <div class="inner">
+                    <img id="descIcon" class="icon" src="">
+                    <div id="descCheckmark"></div>
+                    <h3 id="descTitle">[Title]</h3>
+                    <p id="descFound">[Found]</p>
+                    <p id="descText">[Description]</p>
+                </div>
+                <div class="clear"></div>
+            </section>
+
+            <!-- Lower Icons -->
+            <div id="iconContainer" class="container">
+                <!-- <button class="infoButton" data-info="1">
+                    <div class="icon iconBox">
+                        <div><img src="img/iconYarrow.svg"></div>
+                        <div><p>Yarrow</p></div>
+                    </div>
+                </button>-->
+            </div>
+            <div class="clear"></div>
+            <!-- End Lower Icons -->
+
+            <!--<div class="redButton">REVEAL PRECISE OBJECT LOCATIONS</div>-->
+        </div>
+    </body>
+</html>

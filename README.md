@@ -15,4 +15,4 @@ Node.JS and the serialport API (https://www.npmjs.com/package/serialport) - the 
 All data handling is live and working exactly as it would, only here the inputs aren't derived from a scanner but from buttons along 
 the right to simulate UID entry. 
 
-If you run into problems, especially where text reads "error", you can try disabling ad block! 
+If you run into problems, especially where text reads "error", you can try disabling ad block!

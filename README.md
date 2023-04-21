@@ -5,6 +5,7 @@ Hello! This is the code for the app portion of my GBC Scavenger Hunt. Some loose
 resources:
 
 Live code (this requires being run on a live server or local virtual server): http://natedavisdesign.com/hunt/
+
 PDF Overview: http://natedavisdesign.com/hunt/scavengerHunt-Nate.pdf
 
 Systems overview: https://www.figma.com/file/zHmxijLuNimT0O4P1AEZQJ/GBC-Fun-Palace-Hunt
